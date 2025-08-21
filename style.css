@@ -66,12 +66,12 @@ body {
     margin: 20px 0 40px;
 }
 .home-content h1{
-    font-size: 56px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 1.2;
 }
 .home-content h3{
-    font-size:30px;
+    font-size:18px;
     font-weight: 700;
     color:rgb(15, 15, 166);
 }
@@ -129,4 +129,5 @@ body {
 }
 .home-sci a{
     display: inline-block;
+
 }
