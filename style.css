@@ -46,7 +46,7 @@ body {
 .navbar a.active
  {
     /*color:rgb(36, 36, 240);*/
-    color:rgb(15, 15, 166);
+    color:rgb(15, 15, 130);
 
 }
 .home {
@@ -131,3 +131,4 @@ body {
     display: inline-block;
 
 }
+
