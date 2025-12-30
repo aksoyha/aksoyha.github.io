@@ -112,7 +112,7 @@ body {
     left:0;
     width: 0%;
     height: 100%;
-    background: #1c082a;
+    background: darkblue;
     z-index: -1;
     transition: .5s;
 }
@@ -131,6 +131,7 @@ body {
     display: inline-block;
 
 }
+
 
 
 
