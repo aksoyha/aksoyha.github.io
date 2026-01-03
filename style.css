@@ -35,7 +35,7 @@ body {
     font-weight: 600;
 }
 .navbar a {
-    font: size 19px;
+    font: size 18px;
     color:#ededed; 
     text-decoration:none;
     font-weight: 500;
@@ -131,6 +131,7 @@ body {
     display: inline-block;
 
 }
+
 
 
 
