@@ -298,8 +298,8 @@ menu li{
     background-size: cover;
     display: flex;
     position: relative;
-    left: 150px;
-    top: -76px;
+    left: 100px;
+    top: -30px;
     
 }
 footer{
@@ -316,3 +316,4 @@ footer{
     align-items: center;
 
 }
+
