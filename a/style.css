@@ -1,0 +1,304 @@
+body{
+    margin: 0;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    /* font-weight:weight; */
+    font-style: normal;
+    width: 100vw;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color:white;
+    background-color: black;
+    position:fixed;
+    top: 0%;
+    z-index: 3;
+
+
+}
+header h1{
+    padding:20px 30px;
+}
+header h3{
+    padding: 32px 6px;
+    text-decoration: none;
+    font-size: 18pt;
+}
+.title{
+    margin: 0;
+    display: flex;
+
+}
+.title a{
+    color: white;
+    text-decoration: underline;
+    
+}
+.menu{
+    display: flex;
+    background-color: black;
+    display: flex;
+    position: relative;
+    top: auto;
+    color: white;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-items: right;
+    padding: 30px;
+}
+.menu a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 23px;
+}
+.menu a:hover{
+    color: pink;
+    opacity: 0.6;
+    text-decoration:underline;
+}
+menu li{
+    list-style: none;
+    color: white;
+    display: flex;
+    padding: 30px;
+}
+/* .box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    background-image: url(self.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    opacity: 0.6;
+    border-radius: 186px;
+    position: absolute;
+    top: 179px;
+    left: 300px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;;
+} */
+.aboutMe{
+    /* font-weight: 2px; */
+    margin: 0px 0px;
+    width: 100%;
+    height: 400px;
+    /* background-color:rgb(247, 205, 211); */
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    z-index: 1;
+    justify-content: space-between;
+    /* background-color: #fff; /* beyaz arka plan */
+    /* color: #333;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px; */
+
+  /* Başlangıç parıltısı */
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  color: #333;
+
+  /* Gradient arka plan */
+  background: linear-gradient(45deg, #fff, #e87283);/* #ffb6c1*/
+  background-size: 200% 200%;
+
+  /* Animasyon */
+  animation: bgGlow 5s ease infinite alternate;
+}
+
+@keyframes bgGlow {
+  from {
+    background-position: left top;
+  }
+  to {
+    background-position: right bottom;
+  }
+}
+
+.hello{
+    padding: 16px 20px;
+    text-align: left;
+    /* background-color: white; */
+    color: rgb(207, 77, 198);
+    /* font-size: 16pt; */
+    font: 30px white bold;
+    display: flex;
+    position: absolute;
+    left: 159px;
+    top: 135px;
+}
+
+.tanitim{
+ width: 500px;
+    height: 150px;
+    padding: 15px;
+    text-align: left;
+    /* border: 1px solid rgb(173, 133, 162); */
+    /* border-radius: 30px;
+    background-color:ccc; */
+    /* opacity: 0.5; */
+    color:rgb(207, 77, 198);
+    font-size: 16pt;
+    display: flex;
+    position: absolute;
+    left: 200px;
+    top: 218px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+
+}
+.blog{
+    width: 100%;
+    height: 350px;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    position: absolute;
+    top: 600px;
+    z-index: -1;
+    justify-content: space-between;
+    align-items: center;
+}
+.yazi1{
+    position: relative;
+    left: 40px;
+    top: 113px;
+    width: 1012px;
+    height: 400px;;
+}
+.yazi2{
+        position: relative;
+    top: -48px;
+    left: -3px;
+    width: -webkit-fill-available;
+}
+.project{
+    width: 100%;
+    height: 400px;
+    background-color: cadetblue;
+    display: flex;
+    position: absolute;
+    top: 950px;
+    z-index: -1;
+    justify-content: center;
+}
+.card1{
+    margin: 27px 35px;
+    padding: 20px 20px;
+    width: 300px;
+    height: 200px;
+    font-size: 18px;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 30px;
+    color: black;
+}
+.card1:hover{/*animation ile yapılacak*/
+    background-color: cadetblue;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    width: 330px;
+    height: 230px;
+
+
+}
+.card2{
+    margin: 27px 35px;
+    padding: 10px 20px;
+    width: 300px;
+    height: 227px;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 30px;
+    color: black;
+}
+.card3{
+    margin: 27px 35px;
+    padding: 10px 20px;
+    width: 300px;
+    height: 227px;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 30px;
+    color: black;
+}
+
+.contact{
+    width: 97%;
+    height: 143px;
+    color: black;
+    background-color: whitesmoke;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 30px;
+    position: absolute;
+    top: 1352px;
+    z-index: -1;
+}
+.contact p{
+    margin: 5px;
+    padding: 0px 50px;
+
+}
+.github{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 53px;
+    border: 1px solid whitesmoke;
+    background-image: url('github.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-flex;
+
+
+}
+.inst{
+    width: 35px;
+    height: 35px;
+    border: 1px solid whitesmoke;
+    background-image: url('instagram.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    left: 95px;
+    top: -40px;
+
+}
+.xtwit{
+    width: 32px;
+    height: 32px;
+    border: 1px solid whitesmoke;
+    background-image: url('twitter.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    left: 138px;
+    top: -76px;
+
+}
+footer{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: darkgrey;
+    display: flex;
+    position: absolute;
+    top: 1555px;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+}
