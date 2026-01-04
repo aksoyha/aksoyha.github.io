@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Pacifico&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+    <header>
+        <nav class="title">
+            <h1>Hatice Aksoy</h1>
+            <h3><a href="#">Home</a></h3>
+        </nav>
+
+        <nav class="menu">
+        <ul>
+            <li><a href="#aboutME">About me</a></li>
+            <li><a href="#proj">Project</a></li>
+            <li><a href="#blogg">Blog</a></li>
+            <li><a href="#contactt">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+    <section class="aboutMe" id="aboutME">
+            <p class="hello"><em>Merhaba,</em></p>
+            <p class="tanitim">Teknolojiyi bir öğrenme yolculuğu olarak görüyorum: 
+                adım adım ilerleyerek her satırın mantığını keşfetmekten keyif alıyorum.
+                 Veri analizi ve modern arayüz tasarımlarında deneyim kazanıyor, müzik ve
+                  görsel estetikten ilham alarak projelerime özgün bir dokunuş katıyorum. Amacım, 
+                 hem işlevsel hem de kullanıcı dostu çözümler geliştirmek.”</p>
+    </section>
+
+    <section class="blog" id="blogg">
+        <article class="yazi1">
+            <p><h3>Düşünen makine de ne?</h3>“İnsan hayatı varoluşundan itibaren bir  evrimsel süreçten geçer,bununla birlikte
+                 yaşam süreci boyunca ihityaç duyduğu gerekliliklerini belirlemek ve bunları gidermek için çeşitli yollar bulur
+                  ve bulmakla kalmaz keşfeder ,uygular.Bunlardan biride şüphesiz bilimdir.Teknoloji de bunun bir sonucudur.
+                   Hayatımıza giren makineler, işlerimizi kolaylaştıran makine çeşitliğinde her bir amaca uygun yapılmasıyla devam etmektedir. 
+                   Makinelerin hayatımızda neleri gerekli olduğunu bilmesive ne istediklerimizi yapması da bizim gibi düşünen bir makine yapma fikrini ortaya koymuştur şüphesiz.
+                   Bu düşüncenin bir sonucu ve hatta devamında olabilecek her türlü gelişimin farklı alanlarda birbirini etkilemesi,gelişimini takip etmesiyle sonuçlanır.
+                <a href="blog.html">daha fazlası için</a></p>
+        </article>
+        <article class="yazi2"><p><h3>Zamanı Yönetmek</h3>
+            “Zamanı yönetmek çoğu insan için zorlayıcı bir süreçtir. 
+            Ancak küçük alışkanlıklarla büyük farklar yaratmak mümkün.
+             Bu yazıda, günlük planlama teknikleriyle daha verimli bir
+              yaşamın kapılarını aralayacağız.”
+        </p>
+        </article>
+    </section>
+
+    <nav class="project" id="proj">    
+        <div class="card1">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Ut laborum facilis modi? Tempora necessitatibus sint aperiam
+                  fuga praesentium sed saepe, optio repellat est exercitationem
+                   consectetur, sunt suscipit, excepturi dignissimos corrupti!</p>
+        </div>
+        <div class="card2">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Reiciendis explicabo sequi sapiente voluptatibus maiores
+                 molestiae? Nisi provident corrupti itaque? Inventore nihil
+                  aliquam error. Possimus tempore perferendis deleniti ut doloremque 
+                  sapiente.</p>
+        </div>
+        <div class="card3">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                 Accusantium, at. Animi, iste. Dolorum eaque sit numquam est 
+                 debitis, et id dolor itaque quisquam unde odit aliquam perferendis 
+                 recusandae voluptatum deleniti.</p>
+        </div>
+    </nav>
+
+    <section class="contact" id="contactt">
+        <h2>Contact</h2>
+        <p>aksoyhatice111@gmail.com</p>
+        <p>0543 xxx xx xx</p>
+        <a href="https://github.com/aksoyha/" class="github"></a>
+        <a href="" class="inst"></a>
+        <a href="" class="xtwit"></a>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Hatice. Tüm hakları saklıdır.</p>
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+    </footer>
+  
+</body>
+</html>
