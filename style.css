@@ -290,16 +290,16 @@ menu li{
 
 }
 .linkeden{
-    width: 32px;
-    height: 32px;
+    width: 29px;
+    height: 29px;
     border: 1px solid whitesmoke;
-    background-image: url('linkedin.png');
+    background-image: url(linkedin.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     position: relative;
-    left: 100px;
-    top: -30px;
+    left: 176px;
+    top: -110px;;
     
 }
 footer{
@@ -316,4 +316,5 @@ footer{
     align-items: center;
 
 }
+
 
