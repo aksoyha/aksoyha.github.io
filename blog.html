@@ -1,7 +1,4 @@
-<?php
-$ad=
 
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,17 +40,20 @@ $ad=
             <!-- Kaynakça<a href="https://tr.wikipedia.org/wiki/Yapay_zek%C3%A2_tarihi">daha fazlası için...wikipedia</a> -->
         </article>
     </section>
-    <form action="_POST" class="contact-form" key="contact">
+    <form action="contact.php"method="POST" class="contact-form" key="contact">
         <label>Adınız:</label>
-        <input type="text">
+        <input type="text" name="ad">
+        <label> Soy Adınız:</label>
+        <input type="text" name="soyad">
         <label>Mail</label>
-        <input type="email">
-        <textarea width="300px" height="300px" ></textarea>
-        
+        <input type="email" name="mail">
+        <textarea rows="6" cols="12" name="messages"></textarea>
+        <button type="submit">Gönder</button>
     </form>
 
     
 </body>
 
 </html>
+
 
