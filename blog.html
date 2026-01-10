@@ -50,10 +50,17 @@
         <textarea rows="6" cols="12" name="messages"></textarea>
         <button type="submit">Gönder</button>
     </form>
+       <footer>
+        <p>&copy; <span id="year"></span> Hatice. Tüm hakları saklıdır.</p>
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+    </footer>
 
     
 </body>
 
 </html>
+
 
 
