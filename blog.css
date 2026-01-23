@@ -60,7 +60,7 @@ header h3{
     font-size: 23px;
 }
 .menu a:hover{
-    color: pink;
+    color: gray;
     opacity: 0.6;
     text-decoration:none;
 }
@@ -137,6 +137,7 @@ footer{
     align-items: center;
 
 }
+
 
 
 
