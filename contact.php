@@ -9,6 +9,6 @@
     echo "Ad:".htmlspecialchars($ad)."<br>";
     echo "Soyad:".htmlspecialchars($soyad)."<br>";
     echo "Mail:".htmlspecialchars($mail)."<br>";
-    echo "Mesaj:".nl2br(htmlspecialchars($mesaj))."<br>";
+    echo "Mesajj:".nl2br(htmlspecialchars($mesaj))."<br>";
     }
     ?>
